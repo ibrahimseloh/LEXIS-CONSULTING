@@ -1,5 +1,5 @@
 import re 
-from typing import List, Dict, Tuple
+from typing import List, Dict
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI

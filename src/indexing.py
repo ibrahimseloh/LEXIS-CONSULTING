@@ -1,4 +1,3 @@
-from typing import List, Dict
 from langchain_chroma import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.documents import Document
