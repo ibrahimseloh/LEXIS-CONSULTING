@@ -1,0 +1,17 @@
+langchain
+chromadb
+google-generativeai
+streamlit
+nltk
+unstructured[all-docs]
+pydantic
+lxml
+IPython
+requests
+pypdf
+streamlit-pdf-viewer
+tiktoken
+PyMuPDF
+markdown
+langchain-chroma 
+langchain_google_genai
