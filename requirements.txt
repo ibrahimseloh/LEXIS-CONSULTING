@@ -1,6 +1,6 @@
 langchain
 google-generativeai
-streamlit>=1.42.1
+streamlit
 nltk
 unstructured[all-docs]
 pydantic
