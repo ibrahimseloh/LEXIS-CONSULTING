@@ -4,3 +4,6 @@ libsm6
 libxrender1
 libxext6
 poppler-utils
+tesseract-ocr
+tesseract-ocr-eng
+tesseract-ocr-fra
