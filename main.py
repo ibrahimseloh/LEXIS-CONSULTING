@@ -55,7 +55,7 @@ st.markdown(
 st.markdown("#### 🔍 Posez votre question :")
 q_col, _ = st.columns([6, 4])
 with q_col:
-    q = st.text_input("Texte de recherche", label_visibility="collapsed")
+    q = st.text_input("Votre question...", label_visibility="collapsed")
     if st.button("🚀 Envoyer"):
         if q.strip() and st.session_state.get("vectorstore"):
             with st.spinner("⏳ Traitement en cours..."):
