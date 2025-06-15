@@ -1,5 +1,4 @@
 langchain
-chromadb
 google-generativeai
 streamlit
 nltk
@@ -13,5 +12,7 @@ streamlit-pdf-viewer
 tiktoken
 PyMuPDF
 markdown
-langchain-chroma 
+faiss-cpu 
+langchain-community   
 langchain_google_genai
+opencv-python-headless

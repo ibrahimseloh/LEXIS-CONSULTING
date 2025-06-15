@@ -31,7 +31,7 @@ with st.sidebar:
         if st.session_state.get("cached_pdf") != pdf_path:
             with st.spinner("Indexation en cours..."):
                 elems = ocr_pipeline(pdf_path)
-                st.session_state.vectorstore = index_pdf_elements(elems, api_key=st.session_state.gemini_key, collection_name="exotic_options")
+                st.session_state.vectorstore = index_pdf_elements(elems, api_key=st.session_state.gemini_key)
             st.session_state.cached_pdf = pdf_path
             st.session_state.filename = fn
 
