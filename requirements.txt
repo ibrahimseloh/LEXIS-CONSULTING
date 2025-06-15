@@ -17,3 +17,4 @@ langchain-community
 langchain_google_genai
 opencv-python-headless
 transformers 
+sentence-transformers
