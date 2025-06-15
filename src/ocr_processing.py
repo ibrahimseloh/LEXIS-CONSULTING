@@ -24,7 +24,7 @@ def ocr_pipeline(pdf_path: str) -> List[Dict[str, str]]:
             with open(temp_file_path, "rb") as f:
                 raw = partition_pdf(
                     file=f,
-                    ocr_languages="fra+eng",
+                    languages=["fra", "eng"],
                     ocr_strategy="auto",
                     infer_table_structure=True,
                     extract_images_in_pdf=True,
