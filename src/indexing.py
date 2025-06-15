@@ -1,6 +1,6 @@
 from langchain_community.vectorstores import FAISS
 # from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings 
 from langchain_core.documents import Document
 import google.generativeai as genai
 import os
